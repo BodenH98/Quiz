@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toStartOf="@+id/option_2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/main_a" />
 
     <Button
         android:id="@+id/option_2"
@@ -24,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/option_1"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/main_b" />
 
     <Button
         android:id="@+id/option_3"
@@ -34,7 +36,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/option_4"
-        app:layout_constraintTop_toBottomOf="@+id/option_2" />
+        app:layout_constraintTop_toBottomOf="@+id/option_2"
+        android:text="@string/main_d" />
 
     <Button
         android:id="@+id/option_4"
@@ -44,7 +47,8 @@
         app:layout_constraintEnd_toStartOf="@+id/option_3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option_1" />
+        app:layout_constraintTop_toBottomOf="@+id/option_1"
+        android:text="@string/main_c" />
 
     <TextView
         android:id="@+id/Question"

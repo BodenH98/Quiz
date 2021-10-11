@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
             setUpQuestionTextViews()
         } else {
             // if there aren't more questions, display final score, hide the other UI
+            questionTextView.text = quiz.Score.toString()
         }
     }
 

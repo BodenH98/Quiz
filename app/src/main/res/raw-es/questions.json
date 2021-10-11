@@ -1,0 +1,82 @@
+[
+{
+    "question":"Which game during the 2014 world cup was the most one sided",
+    "correct":"0",
+    "a1":"Brazil Vs Germany",
+    "a2":"Germany vs Argentina",
+    "a3":"Argentina vs Netherlands",
+    "a4":"Netherlands vs Brazil"
+},
+  {
+    "question":"What is the name of Aang's mentor",
+    "correct":"2",
+    "a1":"Tenzin",
+    "a2":"Zhang",
+    "a3":"Gyatzo",
+    "a4":"Rohan"
+  },
+  {
+    "question":"Who was the voice actor for Fire Lord Ozai",
+    "correct":"1",
+    "a1":"Dante Basco",
+    "a2":"Mark Hamil",
+    "a3":"Mako",
+    "a4":"Jack Desena"
+  },
+  {
+    "question":"What is the name of Daniel's teacher in the original Karate Kid?",
+    "correct":"2",
+    "a1":"Mizagi",
+    "a2":"Misagi",
+    "a3":"Miyagi",
+    "a4":"Mitagi"
+  },
+  {
+    "question":"What is the name of Daniels rival in the original Karate Kid",
+    "correct":"3",
+    "a1":"Jeremy",
+    "a2":"Luke",
+    "a3":"Blake",
+    "a4":"Johnny"
+  },
+  {
+    "question":"What is the name of students that Michael Scott promised to give college tuition to",
+    "correct":"0",
+    "a1":"Scotts Tots",
+    "a2":"Scotts Scholars",
+    "a3":"Michaels Ballers",
+    "a4":"Michaels Students"
+  },
+  {
+    "question":"What is the name of the person most responsible for prohibition in the 1920's",
+    "correct":"1",
+    "a1":"Scott Douglass",
+    "a2":"Wayne Wheeler",
+    "a3":"Fredrick Douglass",
+    "a4":"President Hoover"
+  },
+  {
+    "question": "What is the name of the secret society that uncle Iroh is in?",
+    "correct": "2",
+    "a1": "The secret society",
+    "a2": "Red roses",
+    "a3": "White Lotus",
+    "a4": "Red Lotus"
+  },
+  {
+    "question": "What is the planned release date for Overwatch 2?",
+    "correct": "3",
+    "a1": "2021",
+    "a2": "2022",
+    "a3": "2023",
+    "a4": "Never"
+  },
+  {
+    "question": "What is the best way to kill somebody in valorant?",
+    "correct": "2",
+    "a1": "Hide and outplay them",
+    "a2": "Outsmart them using abilities",
+    "a3": "Run and Gun",
+    "a4": "Stand still and shoot"
+  }
+]
