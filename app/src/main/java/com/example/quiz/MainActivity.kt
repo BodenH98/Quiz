@@ -3,8 +3,10 @@ package com.example.quiz
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import androidx.constraintlayout.widget.Group
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
@@ -18,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var quiz: Quiz
     lateinit var questions: List<Question>
     lateinit var currQuestion : Question
+    lateinit var  mainGroup : Group
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -55,6 +58,7 @@ class MainActivity : AppCompatActivity() {
         option3 = findViewById(R.id.option_3)
         option4 = findViewById(R.id.option_4)
         questionTextView = findViewById(R.id.Question)
+        mainGroup = findViewById(R.id.main_group)
     }
 
     fun nextQuestion() {
@@ -64,6 +68,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             // if there aren't more questions, display final score, hide the other UI
             questionTextView.text = quiz.Score.toString()
+            mainGroup.visibility = View.INVISIBLE
         }
     }
 
