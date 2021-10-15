@@ -2,6 +2,7 @@ package com.example.quiz
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -19,28 +20,42 @@ class MainActivity : AppCompatActivity() {
     lateinit var questionTextView: TextView
     lateinit var quiz: Quiz
     lateinit var questions: List<Question>
-    lateinit var currQuestion : Question
-    lateinit var  mainGroup : Group
+    lateinit var currQuestion: Question
+    lateinit var mainGroup: Group
+    lateinit var restart: Button
+    lateinit var endgroup: Group
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         wireWidgets()
         setQuestions()
         nextQuestion()
-
+        endgroup.visibility = View.INVISIBLE
         option1.setOnClickListener {
             quiz.Score(0)
             // check if there are more questions and if so, set up the next question.
             nextQuestion()
         }
-        option2.setOnClickListener{quiz.Score(1)
+        option2.setOnClickListener {
+            quiz.Score(1)
             nextQuestion()
         }
-        option3.setOnClickListener {quiz.Score(2)
+        option3.setOnClickListener {
+            quiz.Score(2)
             nextQuestion()
         }
-        option4.setOnClickListener {quiz.Score(3)
+        option4.setOnClickListener {
+            quiz.Score(3)
             nextQuestion()
+        }
+
+        restart.setOnClickListener {
+            mainGroup.visibility = View.VISIBLE
+            quiz.questionIndex = -1
+            quiz.Score = 0
+            nextQuestion()
+            endgroup.visibility = View.INVISIBLE
         }
     }
 
@@ -59,16 +74,20 @@ class MainActivity : AppCompatActivity() {
         option4 = findViewById(R.id.option_4)
         questionTextView = findViewById(R.id.Question)
         mainGroup = findViewById(R.id.main_group)
+        restart = findViewById(R.id.restartbutton)
+        endgroup = findViewById(R.id.endgroup)
     }
 
     fun nextQuestion() {
-        if(quiz.hasmorequestions()) {
+        if (quiz.hasmorequestions()) {
             currQuestion = quiz.getNextQuestion()
             setUpQuestionTextViews()
         } else {
             // if there aren't more questions, display final score, hide the other UI
             questionTextView.text = quiz.Score.toString()
             mainGroup.visibility = View.INVISIBLE
+            endgroup.visibility = View.VISIBLE
+
         }
     }
 

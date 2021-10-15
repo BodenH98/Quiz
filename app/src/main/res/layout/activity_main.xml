@@ -7,48 +7,60 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/restartbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <Button
         android:id="@+id/option_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/main_a"
         app:layout_constraintBottom_toTopOf="@+id/option_4"
         app:layout_constraintEnd_toStartOf="@+id/option_2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/main_a" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/option_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/main_b"
         app:layout_constraintBottom_toTopOf="@+id/option_3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/option_1"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/main_b" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/option_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/main_d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/option_4"
-        app:layout_constraintTop_toBottomOf="@+id/option_2"
-        android:text="@string/main_d" />
+        app:layout_constraintTop_toBottomOf="@+id/option_2" />
 
     <Button
         android:id="@+id/option_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/main_c"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/option_3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/option_1"
-        android:text="@string/main_c" />
+        app:layout_constraintTop_toBottomOf="@+id/option_1" />
 
     <TextView
         android:id="@+id/Question"
@@ -56,9 +68,16 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/endgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="restartbutton" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/main_group"

@@ -1,6 +1,6 @@
 [
 {
-    "question":"Which game during the 2014 world cup was the most one sided",
+    "question":"¿Qué partido de la copa del mundo de 2014 fue el más unilateral?",
     "correct":"0",
     "a1":"Brazil Vs Germany",
     "a2":"Germany vs Argentina",
@@ -8,7 +8,7 @@
     "a4":"Netherlands vs Brazil"
 },
   {
-    "question":"What is the name of Aang's mentor",
+    "question":"¿Como se llama el mentor de Aang?",
     "correct":"2",
     "a1":"Tenzin",
     "a2":"Zhang",
@@ -16,7 +16,7 @@
     "a4":"Rohan"
   },
   {
-    "question":"Who was the voice actor for Fire Lord Ozai",
+    "question":"¿Quién fue el actor de doblaje de Fire Lord Ozai?",
     "correct":"1",
     "a1":"Dante Basco",
     "a2":"Mark Hamil",
@@ -24,7 +24,7 @@
     "a4":"Jack Desena"
   },
   {
-    "question":"What is the name of Daniel's teacher in the original Karate Kid?",
+    "question":"¿Cuál es el nombre del maestro de Daniel en el Karate Kid original?",
     "correct":"2",
     "a1":"Mizagi",
     "a2":"Misagi",
@@ -32,7 +32,7 @@
     "a4":"Mitagi"
   },
   {
-    "question":"What is the name of Daniels rival in the original Karate Kid",
+    "question":"¿Cómo se llama el rival de Daniels en el Karate Kid original?",
     "correct":"3",
     "a1":"Jeremy",
     "a2":"Luke",
@@ -40,7 +40,7 @@
     "a4":"Johnny"
   },
   {
-    "question":"What is the name of students that Michael Scott promised to give college tuition to",
+    "question":"¿Cuál es el nombre de los estudiantes a los que Michael Scott prometió dar matrícula universitaria?",
     "correct":"0",
     "a1":"Scotts Tots",
     "a2":"Scotts Scholars",
@@ -48,7 +48,7 @@
     "a4":"Michaels Students"
   },
   {
-    "question":"What is the name of the person most responsible for prohibition in the 1920's",
+    "question":"¿Cuál es el nombre de la persona más responsable de la prohibición en la década de 1920?",
     "correct":"1",
     "a1":"Scott Douglass",
     "a2":"Wayne Wheeler",
@@ -56,7 +56,7 @@
     "a4":"President Hoover"
   },
   {
-    "question": "What is the name of the secret society that uncle Iroh is in?",
+    "question": "¿Cuál es el nombre de la sociedad secreta en la que se encuentra el tío Iroh?",
     "correct": "2",
     "a1": "The secret society",
     "a2": "Red roses",
@@ -64,7 +64,7 @@
     "a4": "Red Lotus"
   },
   {
-    "question": "What is the planned release date for Overwatch 2?",
+    "question": "¿Cuál es la fecha de lanzamiento prevista para Overwatch 2?",
     "correct": "3",
     "a1": "2021",
     "a2": "2022",
@@ -72,10 +72,10 @@
     "a4": "Never"
   },
   {
-    "question": "What is the best way to kill somebody in valorant?",
+    "question": "¿Cuál es la mejor manera de matar a alguien en valorant?",
     "correct": "2",
-    "a1": "Hide and outplay them",
-    "a2": "Outsmart them using abilities",
+    "a1": "be paitient",
+    "a2": "use abilities",
     "a3": "Run and Gun",
     "a4": "Stand still and shoot"
   }
